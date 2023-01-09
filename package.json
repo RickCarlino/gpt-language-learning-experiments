@@ -1,0 +1,20 @@
+{
+  "name": "gpt3-phrasebook-experiment",
+  "version": "1.0.0",
+  "description": "Vocabulary acquisition for foreign language learners is a solved problem in 2023. Language learning apps leverage [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) to optimize memorization and review of new words. If you need to memorize a comprehensive list of vocabulary words, you can use software like Anki to easily commit the words to long-term memory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickCarlino/gpt-language-learning-experiments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickCarlino/gpt-language-learning-experiments/issues"
+  },
+  "homepage": "https://github.com/RickCarlino/gpt-language-learning-experiments#readme"
+}
