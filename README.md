@@ -125,9 +125,9 @@ The API requests were sent with a "temperature" of `0.20`.
 
 # Problems
 
- * Sometimes GPT makes JSON typos (missing comma, missing quotation marks) which render the example unusable. This is mitigated by lowering the temperature.
- * Although grammar errors are rare, the output can create "awkard" sentences which follow the rules of the language, but are not appropriate for language learning.
- * Awkwardness issues might be fixable by switching to a Korean-centric model, like Naver's CLOVA.
+ * Sometimes GPT makes JSON typos (missing commas, missing quotation marks) which render the example unusable. This is mitigated by lowering the temperature.
+ * Although grammar errors are rare, the output can create "awkard" sentences which follow the rules of the language but are not appropriate for language learning.
+ * Awkwardness issues might be fixable by switching to a Korean-centric model, like Naver's CLOVA. UPDATE: CLOVA is for business use only. Individual API accounts are not available.
  * The prompt needs to be adjusted to focus on conversation rather than written speech.
  * Originally, I wanted to use GPT to generate the example sentences and then leverage Google Translate for English translations. I have now concluded that GPT is a far better translation tool than Google Translate. [See comparison here (feel free to leave comments)](https://docs.google.com/spreadsheets/d/1ksAo4iOZPOHaPC8go0mJBX6QBx8lvSN7sN33b38V_eg/edit?usp=sharing))
  * Some results were so short that they were not useful. For example, when prompted with an input of "그래도" ("nevertheless"), the resulting example sentence was "그래도," which is not particularly helpful for gaining vocabulary context. This can be avoided (but not entirely prevented) by raising the temperature. 
@@ -135,7 +135,16 @@ The API requests were sent with a "temperature" of `0.20`.
 # TODO
 
  * Maybe run the prompts a second time and ask GPT to provide a "situation where you would say this"
- * IDEA: Use Dall-E to generate images for examples?
+ * IDEA: Use Dall-E to generate images for examples.
  * Find a Korean lemmatizer: https://spacy.io/usage
  * Try different models instead of DaVinci
- * Read this very helpful idea: https://www.reddit.com/r/IAmGilGunderson/comments/v80wv3/my_flashcard_routine_using_anki/
+ * [Try this suggestion from a Reddit user](https://www.reddit.com/r/IAmGilGunderson/comments/v80wv3/my_flashcard_routine_using_anki/)
+
+# Principles
+
+ * Complete phrases are better than isolated vocabulary words.
+ * Learners have periods of idle time that can be used to improve skills (driving, walking, cleaning, etc..)
+ * Every learner has different vocabulary needs, so it is essential that the learner eventually sets the curriculum.
+ * Memorization of written materials is a solved problem.
+ * Chat AI can help learners practice without fear of criticism.
+
