@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/RickCarlino/gpt-language-learning-experiments/issues"
   },
-  "homepage": "https://github.com/RickCarlino/gpt-language-learning-experiments#readme"
+  "homepage": "https://github.com/RickCarlino/gpt-language-learning-experiments#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^5.1.1",
+    "node-record-lpcm16": "^1.0.1"
+  }
 }
