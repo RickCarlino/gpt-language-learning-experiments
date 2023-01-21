@@ -1,5 +1,4 @@
 import { Configuration, OpenAIApi } from "openai";
-import { readFileSync, writeFileSync } from "fs";
 
 const apiKey = process.env.OPENAI_API_KEY;
 
